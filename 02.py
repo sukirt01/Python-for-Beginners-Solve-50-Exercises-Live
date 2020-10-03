@@ -6,7 +6,7 @@ arguments and returns the largest of them.
 def max_of_three(a,b,c):
     if a>b and a>c:
         print a 
-    elif b>c:
+    elif b>c and b>a:
         print b 
     else:
         print c 
