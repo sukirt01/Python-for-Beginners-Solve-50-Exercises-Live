@@ -8,7 +8,9 @@ yourself is nevertheless a good exercise.)
 def max1(m,n):
     if m>n:
         return m 
+    elif m<n:
+        return n
     else:
-        return n 
+        print("Error")
 
 print max1(6,5)
